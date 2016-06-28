@@ -1,3 +1,53 @@
+body {
+  background-image: url(http://www.wired.com/wp-content/uploads/2015/06/rainbow-sq.jpg);
+  background-image-opacity: 0.1;
+  z-index: 0; }
 
+header {
+  opacity: 1;
+  display: block;
+  border-bottom: 2px solid black; }
+
+div {
+  opacity: 1;
+  display: inline-block;
+  z-index: 1; }
+  div a {
+    opacity: 1;
+    display: inline-block;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+    z-index: 2; }
+    div a:focus {
+      outline: none; }
+
+.reddiv {
+  background-image: url(http://www.evangelicaloutreach.org/fire.gif); }
+  .reddiv .red {
+    background-color: #B90000; }
+    .reddiv .red:hover {
+      opacity: 0;
+      transition: opacity 1s; }
+
+.bluediv {
+  background-image: url(http://miami-water.com/blog/wp-content/uploads/2012/10/mediafilepoolwater-1.gif); }
+  .bluediv .blue {
+    background-color: #004484; }
+    .bluediv .blue:hover {
+      opacity: 0;
+      transition: opacity 1s; }
+
+.greendiv {
+  background-image: url(https://media.giphy.com/media/eNq1z1ecRi2YM/giphy.gif); }
+  .greendiv .green {
+    background-color: #3A5402; }
+    .greendiv .green:hover {
+      opacity: 0;
+      transition: opacity 1s; }
 
 /*# sourceMappingURL=main.css.map */
