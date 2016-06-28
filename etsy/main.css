@@ -1,3 +1,32 @@
+html {
+  margin: 0;
+  font-family: 'Open sans', sans-serif;
+  background-color: #EEEEEE; }
 
+body {
+  margin: 0; }
+
+img {
+  width: 100%; }
+
+footer {
+  background-color: #4B484F;
+  height: 120px;
+  color: #97969B;
+  text-align: center; }
+  footer h6 {
+    padding-top: 6rem; }
+
+h2 {
+  text-align: center;
+  color: #4F4F4F; }
+
+p {
+  text-align: center;
+  color: #4F4F4F; }
+
+h3 {
+  color: #4F4F4F;
+  padding: 1rem; }
 
 /*# sourceMappingURL=main.css.map */
